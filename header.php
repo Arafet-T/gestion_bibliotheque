@@ -1,4 +1,5 @@
 <?php
+if (!isset($_SESSION['LOGGED_USER']))
 session_start();
 ?>
 
